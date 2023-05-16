@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Block Tracker</h1>
+    <div id="workContainer" class="categoryContainer">
+        <h2>Work</h2>
+    </div>
+    <div id="sleepContainer" class="categoryContainer">
+        <h2>Sleep</h2>
+    </div>
+    <div id="bufferContainer" class="categoryContainer">
+        <h2>Buffer</h2>
+    </div>
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Total Blocks</th>
+            <th>Complete</th>
+            <th>Incomplete</th>
+        </tr>
+        <tr>
+            <td>Work</td>
+            <td id="totalBlocksWork">0</td>
+            <td id="completeBlocksWork">0</td>
+            <td id="incompleteBlocksWork">0</td>
+        </tr>
+        <tr>
+            <td>Sleep</td>
+            <td id="totalBlocksSleep">0</td>
+            <td id="completeBlocksSleep">0</td>
+            <td id="incompleteBlocksSleep">0</td>
+        </tr>
+        <tr>
+            <td>Buffer</td>
+            <td id="totalBlocksBuffer">0</td>
+            <td id="completeBlocksBuffer">0</td>
+            <td id="incompleteBlocksBuffer">0</td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
